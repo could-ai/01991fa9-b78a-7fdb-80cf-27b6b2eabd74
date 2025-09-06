@@ -4,7 +4,7 @@ class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
 
   // Dummy chat messages
-  static const List<Map<String, String>> messages = const [
+  static const List<Map<String, String>> messages = [
     {'sender': 'You', 'text': 'Hey, how\'s it going?'},
     {'sender': 'Jamie', 'text': 'Great! Want to grab coffee?'},
   ];
