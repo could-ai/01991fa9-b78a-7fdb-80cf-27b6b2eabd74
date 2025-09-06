@@ -4,7 +4,7 @@ class MatchesScreen extends StatelessWidget {
   const MatchesScreen({super.key});
 
   // Dummy matches list
-  final List<String> matches = ['Jamie', 'Taylor'];
+  static const List<String> matches = ['Jamie', 'Taylor'];
 
   @override
   Widget build(BuildContext context) {
